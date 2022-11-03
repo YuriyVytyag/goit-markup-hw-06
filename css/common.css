@@ -5,7 +5,8 @@
     --white-color: #FFFFFF;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
-    --indent: 15px;
+    --indent: 30px;
+    --items: 4;
 }
 
 body,
