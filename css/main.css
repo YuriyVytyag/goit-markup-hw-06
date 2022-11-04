@@ -439,28 +439,28 @@
 }
 
 .chek-name {
-    text-align: center;
-}
-
-.chek-field {
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     margin-bottom: 30px;
 }
 
 .chek-btn {
-    margin-right: 7px;
+    display: flex;
+    margin-bottom: 2px;
+    margin-right: 6px;
+}
+
+.chek-text {
+    margin: 0 4px;
 }
 
 .chek-icon {
     position: absolute;
-    top: -1;
-    left: 6px;
+    top: 0;
+    left: 0;
     fill: var(--white-color);
-    background: #212121;
-    border-color: 1px solid #000000;
+    border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     cursor: pointer;
@@ -471,4 +471,5 @@
     border-radius: 2px;
     background: var(--accent-color);
     border-color: var(--accent-color);
+    opacity: 1;
 }
